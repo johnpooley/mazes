@@ -8,8 +8,8 @@ class Cell
     end
 
     def link(cell, bidi=true)
-        @links.delete(cell)
-        cell.unlink(self, false) if bidi
+        @links[cell] = true
+        cell.link(self, false) if bidi
         self
     end
 

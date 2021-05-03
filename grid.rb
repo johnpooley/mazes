@@ -25,8 +25,8 @@ class Grid
 
             cell.north = self[row - 1, col]
             cell.south = self[row + 1, col]
-            cell.east = self[row, col - 1]
-            cell.west = self[row, col + 1]
+            cell.west = self[row, col - 1]
+            cell.east = self[row, col + 1]
         end
     end
 
