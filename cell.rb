@@ -13,6 +13,12 @@ class Cell
         self
     end
 
+    def unlink(cell, bidi=true)
+        @links.delete(cell)
+        cell.unlink(self, false) if bidi
+        self
+    end
+
     def links
         @links.keys
     end
