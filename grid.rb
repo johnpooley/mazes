@@ -60,3 +60,4 @@ class Grid
             end
         end
     end
+end
