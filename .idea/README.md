@@ -1,0 +1,1 @@
+gem install chunky_png
