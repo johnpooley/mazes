@@ -1,7 +1,7 @@
 require 'grid'
 require 'sidewinder'
 
-grid = Grid.new(4, 4)
+grid = Grid.new(15, 15)
 
 Sidewinder.on(grid)
 
