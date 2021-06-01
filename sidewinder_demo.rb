@@ -1,5 +1,5 @@
-require 'grid'
-require 'sidewinder'
+require_relative 'grid'
+require_relative 'sidewinder'
 
 grid = Grid.new(15, 15)
 
