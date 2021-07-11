@@ -8,3 +8,6 @@ img = grid.to_png
 img.save "maze_binary_tree.png"
 
 puts grid
+
+deadends = grid.deadends
+puts "#{deadends.count} dead-ends"
